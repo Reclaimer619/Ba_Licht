@@ -11,6 +11,7 @@
 
 #if RAMEND <= 0x4FF
 #define DMX_SIZE 512
+
 #else
 #define DMX_SIZE 512
 #endif
@@ -23,5 +24,5 @@ class DmxSimpleClass
     void usePin(uint8_t);
 };
 extern DmxSimpleClass DmxSimple;
-
+extern DmxSimpleClass DMXSimple2;
 #endif

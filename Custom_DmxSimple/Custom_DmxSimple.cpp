@@ -287,3 +287,4 @@ void DmxSimpleClass::write(int address, uint8_t value)
 	dmxWrite(address, value);
 }
 DmxSimpleClass DmxSimple;
+DmxSimpleClass DMXSimple2;
