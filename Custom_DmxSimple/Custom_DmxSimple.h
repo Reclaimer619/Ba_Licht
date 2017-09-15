@@ -10,7 +10,7 @@
 #include <inttypes.h>
 
 #if RAMEND <= 0x4FF
-#define DMX_SIZE 128
+#define DMX_SIZE 512
 #else
 #define DMX_SIZE 512
 #endif
